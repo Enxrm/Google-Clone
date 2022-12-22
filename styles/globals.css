@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FFFFFF];
+  }
+
+  .link {
+    @apply hover:underline cursor-pointer;
+  }
+
+  .btn {
+    @apply bg-[#f8f9fa] p-3 rounded-md ring-gray-200 text-sm text-gray-800  focus-within:ring-blue-700 hover:ring-1;
+  }
+
+  .footer-link {
+    @apply hover:underline cursor-pointer;
+  }
+}
+
+body,
+html {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: #202124;
+}
+
+.h-14 {
+  height: 60px;
+}
+
+.p-2 {
+  padding: 6px;
+}
+
+.navbar {
+  padding: 5px;
+}
+
+.m2 {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.m3 {
+  margin-left: 15px;
+}
+
+.m1 {
+  margin-left: 15px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.box {
+  width: 100%;
+  padding-right: 15px;
+}
+
+.button {
+  margin: 0px 12px 0px 8px;
+  height: 36px;
+  width: 80px;
+  border-radius: 4px;
+  letter-spacing: 0.25px;
+}
+
+@media (min-width: 640px) {
+  .smw {
+    width: 96px;
+  }
+}
+
+.smText {
+  font-size: 13px;
+}
+
+.btn {
+  height: 36px;
+  width: 129px;
+}
